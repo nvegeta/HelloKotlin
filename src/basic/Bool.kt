@@ -1,3 +1,5 @@
+package basic
+
 /**
  * 布尔类型
  */

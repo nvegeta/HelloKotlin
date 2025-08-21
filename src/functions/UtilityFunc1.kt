@@ -1,3 +1,5 @@
+package functions
+
 import kotlin.math.* // 我们需要使用import来引入某些库，这样才能使用库函数
 
 /**

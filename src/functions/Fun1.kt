@@ -1,3 +1,5 @@
+package functions
+
 import kotlin.io.println
 
 /**
@@ -12,7 +14,7 @@ name : type
 fun name() : returnType {} -> 有冒号后面就要写类型，不然会报错
  */
 fun say(message: String) { // 行参
-    println("I say: $message")
+    println("I functions.say: $message")
 }
 
 fun sum(a: Int, b: Int): Int { // 返回值
@@ -25,8 +27,8 @@ fun test(text: String = "我是默认值") {
 
 /*
 对于一些内容比较简单的函数，比如上面仅仅是计算两个参数的和，我们可以直接省略掉花括号，像这样编写：
-fun test(a: Int = 6, b: Int = 10): Int = a + b   //函数的结果直接缩减为 = a + b 效果跟之前是一样的
-fun test(a: Int = 6, b: Int = 10) = a + b  //返回类型可以自动推断，这里可以吧返回类型省掉
+fun functions.test(a: Int = 6, b: Int = 10): Int = a + b   //函数的结果直接缩减为 = a + b 效果跟之前是一样的
+fun functions.test(a: Int = 6, b: Int = 10) = a + b  //返回类型可以自动推断，这里可以吧返回类型省掉
  */
 fun test(a: Int = 6, b: Int = 10): Int {
 //    a = 2 // 'val' cannot be reassigned. -> 函数的形式参数默认情况下为常量，无法进行修改，只能使用

@@ -1,3 +1,5 @@
+package basic
+
 /**
  * 字符串
  * 注意，字符串中的字符一旦确定，无法进行修改，只能重新创建。
@@ -16,7 +18,7 @@ fun main() {
 
 
     // 我们需要注意字符串拼接的顺序，只能由字符串拼接其他类型，如果是其他类型拼接字符串，可能会出现问题
-//    println(10 + str) // ERROR
+    //    println(10 + functions.str) // ERROR
     println(str + 10)
 
     val a = 10

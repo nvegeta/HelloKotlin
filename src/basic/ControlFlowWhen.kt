@@ -1,3 +1,5 @@
+package basic
+
 /**
  * 流程控制语句 [when] 类似Java和C语言中的`switch`语句
  */

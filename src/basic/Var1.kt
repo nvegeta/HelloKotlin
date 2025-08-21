@@ -1,3 +1,5 @@
+package basic
+
 fun main() {
     // var [name]: [type] = [value]
     val count: UInt = 10u // 'val' cannot be reassigned.  U -> unassigned

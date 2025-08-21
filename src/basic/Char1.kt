@@ -1,3 +1,5 @@
+package basic
+
 /**
  * 字符类型
  */
