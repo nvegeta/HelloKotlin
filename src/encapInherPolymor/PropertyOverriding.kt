@@ -61,7 +61,7 @@ fun main() {
     不仅仅是if判断的场景、包括when、while，以及`&&` `||` 等运算符都支持智能转换，只要上下文语境符合就能做到
      */
     val f4: FruitSuper? = FruitSubB("Fruit subclass B")
-    while (f4 is FruitSubB) f4.addToTea() // 根据语境直接智能转换
+//    while (f4 is FruitSubB) f4.addToTea() // 根据语境直接智能转换
     if (f4 is FruitSubB && f4.addToTea()) { //很明显如果这前面已经判断为真了，那肯定是这个类型，后面也可以智能转换
         return
     }
